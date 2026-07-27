@@ -13,6 +13,14 @@ module.exports = function(eleventyConfig) {
     return "";
   });
 
+  eleventyConfig.addFilter("parseDate", function(dateString) {
+    let parts = dateString.split(/,| - | – /);
+    if (parts.length >= 2) {
+      return { start: parts[0].trim(), end: parts[1].trim() };
+    }
+    return { start: dateString.trim(), end: "Present" };
+  });
+
   return {
     dir: {
       input: "src",

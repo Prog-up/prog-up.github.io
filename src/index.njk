@@ -116,7 +116,24 @@ title: Enzo Juhel - Portfolio
   </div>
   <div class="dialog-content">
 
-    <p class="dim-label mb-4">{{ case.date }}</p>
+    {% set period = case.date | parseDate %}
+    <div class="period-box-container mb-4">
+      <div class="boxed-list period-box">
+        <div class="action-row">
+          <div class="action-row-content text-center">
+            <div class="action-row-subtitle dim-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">Start</div>
+            <div class="action-row-title">{{ period.start }}</div>
+          </div>
+        </div>
+        <div class="period-divider"></div>
+        <div class="action-row">
+          <div class="action-row-content text-center">
+            <div class="action-row-subtitle dim-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">End</div>
+            <div class="action-row-title">{{ period.end }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <p>{{ case.summary }}</p>
     <div class="case-study-content mt-3">
       {{ case.slug | renderMarkdown | safe }}

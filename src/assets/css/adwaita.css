@@ -208,6 +208,32 @@ button.icon-btn {
   overflow: hidden;
 }
 
+/* Period Split Box */
+.period-box-container {
+  display: flex;
+  justify-content: center;
+}
+.period-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 450px;
+}
+.period-box .action-row {
+  flex: 1;
+  border-bottom: none;
+  justify-content: center;
+  border-radius: 0;
+  min-height: auto;
+  padding: 1rem;
+}
+.period-box .period-divider {
+  width: 1px;
+  background-color: var(--border-color);
+}
+.text-center { text-align: center; }
+
 /* Action Rows (AdwActionRow) */
 .action-row {
   display: flex;
