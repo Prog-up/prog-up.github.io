@@ -65,12 +65,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--headerbar-bg-color);
+  background-color: var(--window-bg-color);
   padding: 0 0.5rem;
   height: 46px; /* GNOME standard */
-  border-bottom: 1px solid var(--border-color);
   flex-shrink: 0;
   user-select: none;
+  transition: border-bottom 0.15s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.headerbar.scrolled {
+  border-bottom: 1px solid var(--border-color);
 }
 
 .headerbar-start, .headerbar-end {

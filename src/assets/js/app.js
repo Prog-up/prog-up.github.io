@@ -28,6 +28,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Headerbar scroll effect
+  const headerbar = document.querySelector('.headerbar');
+  const windowContent = document.querySelector('.window-content');
+  
+  if (headerbar && windowContent) {
+    windowContent.addEventListener('scroll', () => {
+      if (windowContent.scrollTop > 0) {
+        headerbar.classList.add('scrolled');
+      } else {
+        headerbar.classList.remove('scrolled');
+      }
+    }, { passive: true });
+  }
+
   // Small polyfill/helper in case 'commandfor' on dialog isn't fully supported without polyfill yet
   // This ensures our dialogs close/open properly if the browser doesn't fully support Invoker Commands.
   if (!window.HTMLButtonElement.prototype.hasOwnProperty('commandForElement')) {
