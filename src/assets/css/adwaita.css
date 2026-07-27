@@ -298,6 +298,10 @@ button.action-row:active, a.action-row:active { background-color: var(--btn-acti
 
 
 /* Dialog (Window Modal) */
+.adwaita-dialog[open] {
+  display: flex;
+}
+
 .adwaita-dialog {
   padding: 0;
   border: 1px solid var(--window-border);
@@ -307,7 +311,6 @@ button.action-row:active, a.action-row:active { background-color: var(--btn-acti
   max-width: 600px;
   width: 90%;
   max-height: 85vh;
-  display: flex;
   flex-direction: column;
   box-shadow: 0 10px 40px rgba(0,0,0,0.25);
   overflow: hidden;
