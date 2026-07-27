@@ -10,9 +10,11 @@
 <body>
     <header class="headerbar">
         <div class="headerbar-start">
+            <span class="branding" style="font-weight: 600; padding: 0 0.5rem;">{{ site.name }}</span>
         </div>
         <div class="headerbar-center">
-            <span class="headerbar-title">{{ site.name }}</span>
+            <!-- Optional AdwViewSwitcher or title -->
+            <span class="headerbar-title">Portfolio</span>
         </div>
         <div class="headerbar-end">
             <button commandfor="html-root" command="--toggle-theme" class="button flat icon-btn" aria-label="Toggle Theme" title="Toggle Theme">
@@ -32,7 +34,7 @@
     </header>
 
     <main class="window-content">
-        <div class="clamp-width">
+        <div class="clamp">
             {{ content | safe }}
         </div>
     </main>
