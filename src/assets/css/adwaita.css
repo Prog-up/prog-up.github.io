@@ -199,6 +199,7 @@ button.icon-btn {
 /* Boxed Lists (GtkListBox) */
 .boxed-list {
   background-color: var(--card-bg-color);
+  border: light-dark(1px solid var(--border-color), none);
   border-radius: var(--window-radius);
   margin-bottom: 2rem;
   overflow: hidden;
@@ -226,7 +227,7 @@ button.icon-btn {
 }
 .period-box .period-divider {
   width: 1px;
-  background-color: var(--border-color);
+  background-color: light-dark(var(--border-color), var(--window-bg-color));
 }
 .text-center { text-align: center; }
 
@@ -235,7 +236,7 @@ button.icon-btn {
   display: flex;
   align-items: center;
   width: 100%;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid light-dark(var(--border-color), var(--window-bg-color));
   padding: 0.75rem 1rem;
   min-height: 56px;
   background: transparent;
