@@ -13,3 +13,8 @@ Three of the converted models are now public on Hugging Face:
 
 You can read the full report here:
 [View Research Paper (PDF)](/assets/cases/llm-research/Reseach%20Paper.pdf)
+
+<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
+<a href="https://www.linkedin.com/posts/enzo-juhel_local-ai-on-intel-integrated-gpu-laptops-activity-7479861074494730242-QOu2" target="_blank" class="button pill mt-2" style="display:inline-block; text-decoration:none;">Read more on LinkedIn</a>
+<a href="/assets/cases/llm-research/Reseach%20Paper.pdf" target="_blank" class="button primary pill mt-2" style="display:inline-block; text-decoration:none;">View Research Paper (PDF)</a>
+</div>

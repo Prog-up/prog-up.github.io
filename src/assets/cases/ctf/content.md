@@ -20,3 +20,10 @@ This experience was a massive reality check on how incredibly vast the cybersecu
 - Web CTFs require strict discipline to stay focused on the actual flaw and avoid wasting hours down rabbit holes.
 - Building a custom setup with Arch Linux and the AUR provides excellent integration for cybersecurity tools.
 - In complex challenges, teamwork is your greatest asset for exploring alternative paths and catching the small errors.
+
+<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
+### Links
+<a href="https://www.linkedin.com/posts/enzo-juhel_cybersecurity-infosec-networking-activity-7470504048681652224-p5eO" target="_blank" class="button pill mt-2" style="display:inline-block; text-decoration:none;">Hack the Shield CTF</a>
+<a href="https://www.linkedin.com/posts/epita-ecole-ingenieurs-informatique_epita-cybersecurite-breizhctf-ugcPost-7465049868756189184-aWCO" target="_blank" class="button pill mt-2" style="display:inline-block; text-decoration:none;">Breizh CTF</a>
+<a href="https://www.linkedin.com/posts/enzo-juhel_ctf-cybersecurity-hacklantique-activity-7438195302441877504-VOaG" target="_blank" class="button pill mt-2" style="display:inline-block; text-decoration:none;">Hack'lantique 2026</a>
+</div>
