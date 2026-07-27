@@ -22,7 +22,7 @@
   --headerbar-bg-color: light-dark(#ebebeb, #303030);
   --card-bg-color: light-dark(#ffffff, rgba(255, 255, 255, 0.08));  
   --border-color: light-dark(rgba(0,0,0,0.15), rgba(255,255,255,0.15));
-  --window-border: light-dark(rgba(0,0,0,0.15), rgba(0,0,0,0.6));
+  --window-border: light-dark(rgba(0,0,0,0.15), transparent);
   
   --text-main: light-dark(rgba(0,0,0,0.9), rgba(255,255,255,0.9));
   --text-dim: light-dark(rgba(0,0,0,0.55), rgba(255,255,255,0.55));
