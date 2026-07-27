@@ -259,7 +259,7 @@ button.action-row:active, a.action-row:active { background-color: var(--btn-acti
   height: 32px;
   background-color: var(--btn-bg);
   border-radius: 50%;
-  color: var(--accent-text);
+  color: var(--text-main);
   flex-shrink: 0;
 }
 
