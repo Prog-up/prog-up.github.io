@@ -1,3 +1,8 @@
+### Breizh CTF
+As part of the **EPIT'HACK** team, we secured an impressive **12th place out of 116 teams**. Beyond the competition, EPITA sponsored the event to foster a strong cybersecurity culture in the region. At our stand, we engaged attendees with hands-on activities like "Hack me if you can", the "Cyber Iceberg", and LLM hijacking to promote ethical hacking and digital critical thinking.
+
+![Breizh CTF Ranking](/assets/cases/ctf/breizh-1.jpg)
+
 ### Hack the Shield CTF
 Just wrapped up the Hack the Shield CTF, and I took a slightly unconventional approach this time: full reverse engineering and zero AI.
 
@@ -6,10 +11,6 @@ I chose to focus on understanding exactly what those agents do under the hood wh
 Something that I noticed is, during CTFs, we get network switches access that are often completely open compared to hyper-secure Wi-Fi (WPA 2/3 Personal and Enterprise). Anyone can plug in a laptop, grab an IP, and roam the network anonymously without being easily traceable.
 
 This security gap sent me down a rabbit hole, which led me to IEEE 802.1X (Network Access Control). I ended up remotely deploying an OPNsense router + RADIUS Authentication Server hooked up to a network switch at EPITA to experiment with secure internal services segregation using Dynamic VLANs.
-
-### Breizh CTF
-Ranked 12th out of 100 teams.
-![Breizh CTF Ranking](/assets/cases/ctf/breizh-1.jpg)
 
 ### Hack'lantique 2026
 My first CTF! Our team secured 5th place out of 40 teams, which was a fantastic result for our first run.
