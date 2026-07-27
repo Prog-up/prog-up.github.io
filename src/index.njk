@@ -118,7 +118,9 @@ title: Enzo Juhel - Portfolio
 
     <p class="dim-label mb-4">{{ case.date }}</p>
     <p>{{ case.summary }}</p>
-    <p><em>(Detailed case study writeup will be loaded here in the future from the case's asset folder)</em></p>
+    <div class="case-study-content mt-3">
+      {{ case.slug | renderMarkdown | safe }}
+    </div>
   </div>
 </dialog>
 {% endfor %}

@@ -1,5 +1,17 @@
+const fs = require('fs');
+const md = require('markdown-it')();
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+
+  eleventyConfig.addFilter("renderMarkdown", function(slug) {
+    const filePath = `./src/assets/cases/${slug}/content.md`;
+    if (fs.existsSync(filePath)) {
+      const content = fs.readFileSync(filePath, 'utf8');
+      return md.render(content);
+    }
+    return "";
+  });
 
   return {
     dir: {
