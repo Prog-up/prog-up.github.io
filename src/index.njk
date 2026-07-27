@@ -121,10 +121,11 @@ title: Enzo Juhel - Portfolio
       <div class="boxed-list period-box">
         <div class="action-row">
           <div class="action-row-content text-center">
-            <div class="action-row-subtitle dim-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">Start</div>
+            <div class="action-row-subtitle dim-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">{% if period.end %}Start{% else %}Date{% endif %}</div>
             <div class="action-row-title">{{ period.start }}</div>
           </div>
         </div>
+        {% if period.end %}
         <div class="period-divider"></div>
         <div class="action-row">
           <div class="action-row-content text-center">
@@ -132,6 +133,7 @@ title: Enzo Juhel - Portfolio
             <div class="action-row-title">{{ period.end }}</div>
           </div>
         </div>
+        {% endif %}
       </div>
     </div>
     <p>{{ case.summary }}</p>

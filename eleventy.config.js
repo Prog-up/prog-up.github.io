@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
     if (parts.length >= 2) {
       return { start: parts[0].trim(), end: parts[1].trim() };
     }
-    return { start: dateString.trim(), end: "Present" };
+    return { start: dateString.trim(), end: null };
   });
 
   return {
