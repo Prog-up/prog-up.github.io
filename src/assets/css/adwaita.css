@@ -298,27 +298,6 @@ button.action-row:active, a.action-row:active { background-color: var(--btn-acti
 
 .go-next-icon { color: var(--text-dim); }
 
-/* Tags */
-.tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-.tag {
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.15rem 0.5rem;
-  border-radius: 12px;
-  background-color: var(--border-color);
-  color: var(--text-main);
-}
-.tag:nth-child(1n) { background-color: var(--blue-1); color: #1a5fb4; }
-.tag:nth-child(2n) { background-color: var(--green-1); color: #26a269; }
-.tag:nth-child(3n) { background-color: var(--yellow-1); color: #c64600; }
-.tag:nth-child(4n) { background-color: var(--purple-1); color: #613583; }
-.tag:nth-child(5n) { background-color: var(--red-1); color: #a51d2d; }
-
-:root[data-theme="dark"] .tag:nth-child(1n) { background-color: var(--blue-5); color: #99c1f1; }
-:root[data-theme="dark"] .tag:nth-child(2n) { background-color: var(--green-5); color: #8ff0a4; }
-:root[data-theme="dark"] .tag:nth-child(3n) { background-color: var(--orange-5); color: #ffbe6f; }
-:root[data-theme="dark"] .tag:nth-child(4n) { background-color: var(--purple-5); color: #dc8add; }
-:root[data-theme="dark"] .tag:nth-child(5n) { background-color: var(--red-5); color: #f66151; }
 
 /* Dialog (Window Modal) */
 .adwaita-dialog {

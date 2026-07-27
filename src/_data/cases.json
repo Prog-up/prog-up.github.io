@@ -3,28 +3,24 @@
     "slug": "ctf",
     "title": "CTFs, Rennes — Compétition de Cybersécurité",
     "summary": "Hack’Lantique (5e/40) : Web, Réseau et BreizhCTF (12e/100) avec agents IA.",
-    "date": "07/03/2026, 23/05/2026",
-    "tags": ["Cybersecurity", "CTF", "Web", "Network", "AI Agents"]
+    "date": "07/03/2026, 23/05/2026"
   },
   {
     "slug": "excense",
     "title": "Excense, Rennes — Stage intermédiaire",
     "summary": "Création d’un PoC UWP avec serveur MCP, service web d’automatisation de tests de qualité d'interfaçage avec des LLM et migration vers .NET 9 (C#).",
-    "date": "01/09/2025 – 30/01/2026",
-    "tags": ["UWP", "MCP", "LLM", ".NET 9", "C#"]
+    "date": "01/09/2025 – 30/01/2026"
   },
   {
     "slug": "sentientscript",
     "title": "Sentient Script, Chennai (Inde) — Stage à l’International",
     "summary": "Développement Full-Stack Next.js sur 2 projets utilisant le SDK d’Ollama.",
-    "date": "18/01/2024 - 12/08/2024",
-    "tags": ["Next.js", "Ollama", "Full-Stack"]
+    "date": "18/01/2024 - 12/08/2024"
   },
   {
     "slug": "agrial",
     "title": "Agrial, Douvres-la-Délivrande — Emploi saisonnier",
     "summary": "Gestion des stocks, des étalages et manutention des commandes clients.",
-    "date": "17/07/2023 - 26/08/2023",
-    "tags": ["Logistics"]
+    "date": "17/07/2023 - 26/08/2023"
   }
 ]
