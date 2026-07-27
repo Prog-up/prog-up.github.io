@@ -313,8 +313,8 @@ button.action-row:active, a.action-row:active { background-color: var(--btn-acti
   backdrop-filter: blur(2px);
 }
 
-.adwaita-dialog .dialog-content { padding: 1.5rem; background-color: var(--view-bg-color); }
-.adwaita-dialog .dialog-footer { padding: 1rem; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end; background-color: var(--window-bg-color); }
+.adwaita-dialog .dialog-content { padding: 1.5rem; }
+.adwaita-dialog .dialog-footer { padding: 1rem; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end; }
 
 /* Links */
 a { color: var(--text-main); text-decoration: none; }
