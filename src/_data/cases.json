@@ -1,26 +1,62 @@
 [
   {
+    "slug": "llm-research",
+    "title": "Local AI on Intel GPUs — Research Paper",
+    "summary": "Benchmarked 14 LLMs across three inference backends on Intel integrated GPUs, stitched openVINO graphs, and published optimized models on Hugging Face.",
+    "date": "Feb 2026 – Jun 2026"
+  },
+  {
+    "slug": "infra-pro",
+    "title": "Optavim — Enterprise Infrastructure",
+    "summary": "Designed and deployed a highly available, secure multi-site enterprise network from scratch using pfSense, Kubernetes, Proxmox, and Keycloak.",
+    "date": "Jun 2026"
+  },
+  {
     "slug": "ctf",
-    "title": "CTFs, Rennes — Compétition de Cybersécurité",
-    "summary": "Hack’Lantique (5e/40) : Web, Réseau et BreizhCTF (12e/100) avec agents IA.",
-    "date": "07/03/2026, 23/05/2026"
+    "title": "Cybersecurity Competitions — CTFs",
+    "summary": "Competed in multiple CTFs including Hack'Lantique (5th/40), BreizhCTF (12th/100), and Hack the Shield. Focused on reverse engineering, network access control (802.1X), and methodology.",
+    "date": "Mar 2026 – Jun 2026"
+  },
+  {
+    "slug": "ovh-hackathon",
+    "title": "OVHcloud Hackathon — Winner",
+    "summary": "Won the OVHcloud hackathon by building and deploying an innovative solution using their cloud infrastructure.",
+    "date": "Jun 2026"
+  },
+  {
+    "slug": "company-audit",
+    "title": "Enterprise Security Audit",
+    "summary": "Conducted a thorough security audit for a medical technology company following a massive patient data leak.",
+    "date": "May 2026"
+  },
+  {
+    "slug": "cyberbreakfast",
+    "title": "EPITA Cyberbreakfast",
+    "summary": "Participated in and contributed to cybersecurity workshops and knowledge sharing at the EPITA Cyberbreakfast.",
+    "date": "Apr 2026"
+  },
+  {
+    "slug": "resilient-infra",
+    "title": "Resilient Infrastructure & DoS",
+    "summary": "Explored resilient architectures and network defense mechanisms against Denial of Service (DoS) attacks.",
+    "date": "Mar 2026"
   },
   {
     "slug": "excense",
-    "title": "Excense, Rennes — Stage intermédiaire",
-    "summary": "Création d’un PoC UWP avec serveur MCP, service web d’automatisation de tests de qualité d'interfaçage avec des LLM et migration vers .NET 9 (C#).",
-    "date": "01/09/2025 – 30/01/2026"
+    "title": "Excense, Rennes — Software Engineering Intern",
+    "summary": "Created a UWP PoC with an MCP server, developed an automated testing web service for LLM interfaces, and migrated systems to .NET 9 (C#).",
+    "date": "Sep 2025 – Jan 2026"
   },
   {
     "slug": "sentientscript",
-    "title": "Sentient Script, Chennai (Inde) — Stage à l’International",
-    "summary": "Développement Full-Stack Next.js sur 2 projets utilisant le SDK d’Ollama.",
-    "date": "18/01/2024 - 12/08/2024"
+    "title": "Sentient Script, Chennai — Full-Stack Intern",
+    "summary": "Developed Full-Stack Next.js applications across two major projects utilizing the Ollama SDK.",
+    "date": "Jan 2024 – Aug 2024"
   },
   {
     "slug": "agrial",
-    "title": "Agrial, Douvres-la-Délivrande — Emploi saisonnier",
-    "summary": "Gestion des stocks, des étalages et manutention des commandes clients.",
-    "date": "17/07/2023 - 26/08/2023"
+    "title": "Agrial, Douvres-la-Délivrande — Summer Job",
+    "summary": "Managed inventory, organized displays, and handled customer orders and logistics.",
+    "date": "Jul 2023 – Aug 2023"
   }
 ]

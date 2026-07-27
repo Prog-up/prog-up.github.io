@@ -1,0 +1,22 @@
+### Hack the Shield CTF
+Just wrapped up the Hack the Shield CTF, and I took a slightly unconventional approach this time: full reverse engineering and zero AI.
+
+I chose to focus on understanding exactly what those agents do under the hood when analyzing a binary. My scoreboard points weren't my highest ever, but the real ROI was deep-diving into Ghidra and dusting off Assembly flags from last year’s lectures.
+
+Something that I noticed is, during CTFs, we get network switches access that are often completely open compared to hyper-secure Wi-Fi (WPA 2/3 Personal and Enterprise). Anyone can plug in a laptop, grab an IP, and roam the network anonymously without being easily traceable.
+
+This security gap sent me down a rabbit hole, which led me to IEEE 802.1X (Network Access Control). I ended up remotely deploying an OPNsense router + RADIUS Authentication Server hooked up to a network switch at EPITA to experiment with secure internal services segregation using Dynamic VLANs.
+
+### Breizh CTF
+Ranked 12th out of 100 teams.
+![Breizh CTF Ranking](/assets/cases/ctf/breizh-1.jpg)
+
+### Hack'lantique 2026
+My first CTF! Our team secured 5th place out of 40 teams, which was a fantastic result for our first run.
+
+This experience was a massive reality check on how incredibly vast the cybersecurity landscape truly is. Some of my biggest takeaways:
+- Practicing steganography methodology for the very first time and learning that following a strict process is what actually uncovers the flag.
+- Escaping VLAN networks looks straightforward on paper, but executing it in a live environment is far more complex.
+- Web CTFs require strict discipline to stay focused on the actual flaw and avoid wasting hours down rabbit holes.
+- Building a custom setup with Arch Linux and the AUR provides excellent integration for cybersecurity tools.
+- In complex challenges, teamwork is your greatest asset for exploring alternative paths and catching the small errors.

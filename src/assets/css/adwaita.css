@@ -334,3 +334,11 @@ a { color: var(--text-main); text-decoration: none; }
 .mt-3 { margin-top: 1.5rem; }
 .mt-4 { margin-top: 3rem; }
 .mb-4 { margin-bottom: 1.5rem; }
+
+.case-study-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--element-radius);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
