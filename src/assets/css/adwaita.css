@@ -342,3 +342,11 @@ a { color: var(--text-main); text-decoration: none; }
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.case-study-content a:not(.button) {
+  color: var(--accent-text);
+  text-decoration: underline;
+}
+.case-study-content a:not(.button):hover {
+  text-decoration: none;
+}
