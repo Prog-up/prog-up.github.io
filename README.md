@@ -30,8 +30,7 @@ Open `src/_data/cases.json` and add a new entry. For example:
   "slug": "new-project",
   "title": "My Awesome Project",
   "summary": "A brief one-sentence description.",
-  "date": "01/01/2026 - Present",
-  "tags": ["Cybersecurity", "Web"]
+  "date": "01/01/2026 - Present"
 }
 ```
 *Note: The `date` field will automatically be parsed and rendered as a split "Start" and "End" box. You can separate dates using commas, hyphens, or en-dashes (`-` or `–`).*
