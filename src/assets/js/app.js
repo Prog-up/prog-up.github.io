@@ -42,6 +42,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
+  // Dialog Headerbar scroll effect
+  const dialogContents = document.querySelectorAll('.dialog-content');
+  dialogContents.forEach(content => {
+    content.addEventListener('scroll', () => {
+      const header = content.previousElementSibling;
+      if (header && header.classList.contains('headerbar')) {
+        if (content.scrollTop > 0) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }
+    }, { passive: true });
+  });
+
   // Small polyfill/helper in case 'commandfor' on dialog isn't fully supported without polyfill yet
   // This ensures our dialogs close/open properly if the browser doesn't fully support Invoker Commands.
   if (!window.HTMLButtonElement.prototype.hasOwnProperty('commandForElement')) {
