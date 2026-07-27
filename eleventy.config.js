@@ -1,5 +1,5 @@
 const fs = require('fs');
-const md = require('markdown-it')();
+const md = require('markdown-it')({ html: true });
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
