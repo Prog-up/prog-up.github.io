@@ -199,7 +199,7 @@ button.icon-btn {
 /* Boxed Lists (GtkListBox) */
 .boxed-list {
   background-color: var(--card-bg-color);
-  border: light-dark(1px solid var(--border-color), none);
+  border: 1px solid light-dark(var(--border-color), transparent);
   border-radius: var(--window-radius);
   margin-bottom: 2rem;
   overflow: hidden;
