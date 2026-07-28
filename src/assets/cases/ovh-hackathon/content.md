@@ -13,8 +13,8 @@
 
 From an OVH-coupled PoC, we engineered it into a fully agnostic, containerized open-source tool. 
 
-![OVH Hackathon 1](/assets/cases/ovh-hackathon/ovh-1.jpg)
-![OVH Hackathon 2](/assets/cases/ovh-hackathon/ovh-2.jpg)
+![OVH Hackathon 1](/assets/cases/ovh-hackathon/ovh-1.webp)
+![OVH Hackathon 2](/assets/cases/ovh-hackathon/ovh-2.webp)
 
 <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
 <a href="https://miraige.vercel.app/" target="_blank" class="button primary pill mt-2" style="display:inline-block; text-decoration:none;">View MIR[AI]GE Website</a>

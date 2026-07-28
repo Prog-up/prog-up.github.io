@@ -1,7 +1,7 @@
 ### Breizh CTF
 As part of the **EPIT'HACK** team, we secured an impressive **12th place out of 116 teams**. Beyond the competition, EPITA sponsored the event to foster a strong cybersecurity culture in the region. At our stand, we engaged attendees with hands-on activities like "Hack me if you can", the "Cyber Iceberg", and LLM hijacking to promote ethical hacking and digital critical thinking.
 
-![Breizh CTF Ranking](/assets/cases/ctf/breizh-1.jpg)
+![Breizh CTF Ranking](/assets/cases/ctf/breizh-1.webp)
 
 ### Hack the Shield CTF
 Just wrapped up the Hack the Shield CTF, and I took a slightly unconventional approach this time: full reverse engineering and zero AI.
