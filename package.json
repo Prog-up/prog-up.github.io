@@ -3,7 +3,6 @@
   "private": true,
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "optimize-images": "bash scripts/optimize-images.sh",
     "prepare": "git config core.hooksPath .githooks"
   },
   "devDependencies": {

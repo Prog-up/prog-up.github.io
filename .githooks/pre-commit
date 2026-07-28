@@ -2,12 +2,36 @@
 
 set -euo pipefail
 
-echo "⚓ Running git pre-commit hook: optimizing images..."
+ASSETS_DIR="src/assets"
+QUALITY=85
 
-# Run image optimization script
-bash scripts/optimize-images.sh
+# Choose ImageMagick command
+if command -v magick &>/dev/null; then
+    MAGICK_CMD="magick"
+elif command -v convert &>/dev/null; then
+    MAGICK_CMD="convert"
+else
+    echo "⚠️ ImageMagick not found. Skipping image optimization."
+    exit 0
+fi
 
-# If any files were converted or updated, stage the changes automatically
-git add -u src/
+FOUND=0
 
-echo "✅ Pre-commit hook completed."
+while IFS= read -r -d '' img; do
+    FOUND=1
+    base_no_ext="${img%.*}"
+    webp_path="${base_no_ext}.webp"
+    filename=$(basename "$img")
+    webp_filename=$(basename "$webp_path")
+
+    echo "🖼️  Pre-commit optimizing: ${img} -> ${webp_path}"
+
+    "$MAGICK_CMD" "$img" -quality "$QUALITY" "$webp_path"
+    find src -type f \( -name "*.md" -o -name "*.njk" -o -name "*.html" \) -exec perl -pi -e "s|\Q${filename}\E|${webp_filename}|g" {} +
+    rm -f "$img"
+done < <(find "$ASSETS_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -print0)
+
+if [ "$FOUND" -ne 0 ]; then
+    git add -u src/
+    git add src/assets/
+fi
