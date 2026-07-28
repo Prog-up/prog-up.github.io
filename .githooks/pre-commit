@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo "⚓ Running git pre-commit hook: optimizing images..."
+
+# Run image optimization script
+bash scripts/optimize-images.sh
+
+# If any files were converted or updated, stage the changes automatically
+git add -u src/
+
+echo "✅ Pre-commit hook completed."
