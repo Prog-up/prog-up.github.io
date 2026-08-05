@@ -1,5 +1,11 @@
 [
   {
+    "slug": "lvfs",
+    "title": "What does NVIDIA Becomes A Premier Sponsor Of LVFS means?",
+    "summary": "A small write up about firmware management on Linux",
+    "date": "Aug 2026"
+  },
+  {
     "slug": "llm-research",
     "title": "Local AI on Intel GPUs — Research Paper",
     "summary": "Benchmarked 14 LLMs across three inference backends on Intel integrated GPUs, stitched openVINO graphs, and published optimized models on Hugging Face.",
