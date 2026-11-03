@@ -18,12 +18,11 @@ During a 5-month full-stack development internship at **Sentient Scripts** in Ch
 
 - **Docker Containerization**: Packaging PyTorch and OpenCV dependencies into isolated Docker images ensured identical runtime environments across local development and production servers.
 - **NixOS Workarounds**: Resolved Python dependency conflicts on NixOS by leveraging Docker and VS Code Remote Containers for development, avoiding Nix store package collisions.
-- **Azure Cloud Deployment**: Configured container registries and pushed both finalized microservices to **Microsoft Azure** for production evaluation by the Sentient Scripts team.
 
 ### Tech Stack
 - **Frontend**: Next.js, TypeScript, React, Shadcn UI
 - **Backend & AI**: Python, Flask, Ollama (Mistral), PyTorch, mmfashion, YOLOv8, Rasa NLU
-- **DevOps**: Docker, NixOS, Microsoft Azure Container Registry, Git
+- **DevOps**: Docker, NixOS, Git
 
 <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
 <a href="/assets/cases/sentientscript/Internship_Report.pdf" target="_blank" class="button primary pill mt-2" style="display:inline-block; text-decoration:none;">View Internship Report (PDF)</a>
